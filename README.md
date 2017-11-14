@@ -1,6 +1,6 @@
-~Bot Kris~
 11 Akun BotProtect + 1 Akun BotKick
--Versi Kris :
+===Bot Kris===
+- Versi Kris :
 - http://line.me/ti/p/GkwfNjoPDH
 ==================================
 - kalau admin nyuruh nendang member botkick akan masuk lewat kode qr dan left lagi
