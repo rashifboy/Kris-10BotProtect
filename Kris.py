@@ -5,67 +5,67 @@ from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
-satpam = LINETCR.LINE() # Koplaxs # Login Pake Akun Kicker Kalian(Gunanya Supaya Akun Utama Ke Kick bisa Terima Undangan dari Bot Otomatis)
-satpam.login(token="EmXbm2pSeLzwZymk9Kl8.sGVPEFXZ6i6+6rw8Kxi3Ua.w6UP2itKb4fYlRGEH/idCKwtcgMGg7kap2z87sKi6w8=")
-#satpam.login(qr=True)
+satpam = LINETCR.LINE() # Login Pake Akun Kicker Kalian
+#satpam.login(token="EmXbm2pSeLzwZymk9Kl8.sGVPEFXZ6i6+6rw8Kxi3Ua.w6UP2itKb4fYlRGEH/idCKwtcgMGg7kap2z87sKi6w8=")#ganti dgn token kalian
+satpam.login(qr=True)
 satpam.loginResult()
 
 cl = LINETCR.LINE() #Luffy
-cl.login(token="Em6DRwmxtl0vySt7KDDe.QlCh5dGVXhTn8XJhYAOFpG.bY/D2bA8t7PD9UzDZt9Uvamj7mG8JN9qvTS2T2lIQjQ=")
-#cl.login(qr=True)
+#cl.login(token="Em6DRwmxtl0vySt7KDDe.QlCh5dGVXhTn8XJhYAOFpG.bY/D2bA8t7PD9UzDZt9Uvamj7mG8JN9qvTS2T2lIQjQ=")#ganti dgn token kalian
+cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(token="EmVBlNBtdnGTvnJ6h0S0.4CtAvksI2snhv2NVBSkYCa.9s47Sb4bbaw8d7tVk7x9AAXpo8ZkCJi3sLj4LzTe16I=")
-#ki.login(qr=True)
+#ki.login(token="EmVBlNBtdnGTvnJ6h0S0.4CtAvksI2snhv2NVBSkYCa.9s47Sb4bbaw8d7tVk7x9AAXpo8ZkCJi3sLj4LzTe16I=")#ganti dgn token kalian
+ki.login(qr=True)
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(token="EmUjhqhfb6dstlFSbUg1.RF06i2MlCDf8zeGTj9WU0q.xzD3a4i9YHvFD+377K0oTkt/URnYPz69Lbdr1dosQEs=")
-#kk.login(qr=True)
+#kk.login(token="EmUjhqhfb6dstlFSbUg1.RF06i2MlCDf8zeGTj9WU0q.xzD3a4i9YHvFD+377K0oTkt/URnYPz69Lbdr1dosQEs=")#ganti dgn token kalian
+kk.login(qr=True)
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(token="Em54vNLX4ej5zzaQJB8f.W88yhLv5KB7iGCAeG9HatW.1VomAlofICRXiHfNZ7GidYDi1osiq9AVbF1nwFehNB0=")
-#kc.login(qr=True)
+#kc.login(token="Em54vNLX4ej5zzaQJB8f.W88yhLv5KB7iGCAeG9HatW.1VomAlofICRXiHfNZ7GidYDi1osiq9AVbF1nwFehNB0=")#ganti dgn token kalian
+kc.login(qr=True)
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
-ks.login(token="EmMu4odGvVBqBLWZ2ERd.RwYWimxkEVVSTgGwDES4Zq.FIkqIos5FAgdJO+HnSELKvyDAji2khAlsufyj4pyD58=")
-#ks.login(qr=True)
+#ks.login(token="EmMu4odGvVBqBLWZ2ERd.RwYWimxkEVVSTgGwDES4Zq.FIkqIos5FAgdJO+HnSELKvyDAji2khAlsufyj4pyD58=")#ganti dgn token kalian
+ks.login(qr=True)
 ks.loginResult()
 
 ka = LINETCR.LINE() #Franky
-ka.login(token="EmIYunWamHwVPNOL76o7.u8nse0mL8msEHLnmv4aB1W./2nwESVhLyypb/k6oxIpvy1b1eYJIXEU4NHN7lhMGmU=")
-#ka.login(qr=True)
+#ka.login(token="EmIYunWamHwVPNOL76o7.u8nse0mL8msEHLnmv4aB1W./2nwESVhLyypb/k6oxIpvy1b1eYJIXEU4NHN7lhMGmU=")#ganti dgn token kalian
+ka.login(qr=True)
 ka.loginResult()
 
 kb = LINETCR.LINE() #Brook
-kb.login(token="Emm22ysXUtYypiwbVK61.1syMstDSV3v24TYSaZhuGq.S0lmBW8Dl7b/5dz/PRz/RY49T4HWnjZDUW6snjseq0M=")
-#kb.login(qr=True)
+#kb.login(token="Emm22ysXUtYypiwbVK61.1syMstDSV3v24TYSaZhuGq.S0lmBW8Dl7b/5dz/PRz/RY49T4HWnjZDUW6snjseq0M=")#ganti dgn token kalian
+kb.login(qr=True)
 kb.loginResult()
 
 ko = LINETCR.LINE() #Nami
-ko.login(token="EmPmPVzpFDvRFYacI1ff.3prmqNlyijQkxY3rR/6PpW.XSrJWkdtOQI4RUnho+TfOjFCopxpGKcahZ2B8tFsq/0=")
-#ko.login(qr=True)
+#ko.login(token="EmPmPVzpFDvRFYacI1ff.3prmqNlyijQkxY3rR/6PpW.XSrJWkdtOQI4RUnho+TfOjFCopxpGKcahZ2B8tFsq/0=")#ganti dgn token kalian
+ko.login(qr=True)
 ko.loginResult()
 
 ke = LINETCR.LINE() #Robin
-ke.login(token="Em91LjegLEr6XUY3IDf4.rCBoqd8kZcG5lfgqkkRHva.2IZwvg4PjirfprblKpdLLOcpT8c0mgguBYjVDLs6gNs=")
-#ke.login(qr=True)
+#ke.login(token="Em91LjegLEr6XUY3IDf4.rCBoqd8kZcG5lfgqkkRHva.2IZwvg4PjirfprblKpdLLOcpT8c0mgguBYjVDLs6gNs=")#ganti dgn token kalian
+ke.login(qr=True)
 ke.loginResult()
 
 ku = LINETCR.LINE() #Rebecca
-ku.login(token="EmAY84QNPhhlkMMYooB1.2WTRlb8YIh0JVt5n/ZaU0q.+oR7yJMD7zqNDlE+28+v1kR5kITwzCLJu9lhTtWFrWg=")
-#ku.login(qr=True)
+#ku.login(token="EmAY84QNPhhlkMMYooB1.2WTRlb8YIh0JVt5n/ZaU0q.+oR7yJMD7zqNDlE+28+v1kR5kITwzCLJu9lhTtWFrWg=")#ganti dgn token kalian
+ku.login(qr=True)
 ku.loginResult()
 
-k1 = LINETCR.LINE() #ViolaBackup (Gunanya Kalo Akun Utama Ke Kick, Dy masuk ke Group dan Ngekick yang Kick Akun Utama Dan Akun Utama Di undang sama dia,lalu dy leave lagi :D)
-k1.login(token="EmIME9ykSHo3o0NY8WPe.dOGFY9PQdykxsNDFGbx0+G.JuvQdBrDOYmkvbz2rLyZoGjBf3ZE1LspFASmmRwMcBI=")
-#k1.login(qr=True)
+k1 = LINETCR.LINE() #ViolaBackup 
+#k1.login(token="EmIME9ykSHo3o0NY8WPe.dOGFY9PQdykxsNDFGbx0+G.JuvQdBrDOYmkvbz2rLyZoGjBf3ZE1LspFASmmRwMcBI=")#ganti dgn token kalian
+k1.login(qr=True)
 k1.loginResult()
 
-print "login success plak"
+print "login success Boss"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
