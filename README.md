@@ -1,5 +1,5 @@
 11 Akun BotProtect + 1 Akun BotKick
-===Bot Kris===
+-===Bot Kris===
 - Versi Kris :
 - http://line.me/ti/p/GkwfNjoPDH
 -==================================
