@@ -3,7 +3,8 @@
 - Versi Kris :
 - http://line.me/ti/p/GkwfNjoPDH
 
--==================================
+==================================
+
 Fungsinya:
 - untuk protek pastinya
 - Admin ke kick akan di undang otomatis
